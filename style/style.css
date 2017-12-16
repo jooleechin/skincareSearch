@@ -1,0 +1,149 @@
+html{
+    max-width: 100vw;
+    max-height: 100vh;
+    margin: auto;
+    
+}
+
+body{
+    padding-bottom: 80px;
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2px;
+    background-color: #F0EAE7;
+}
+
+.nav {
+    font-size: 30px;
+    padding-right: 170px;
+    color: #24384E;
+    padding-top: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #24384E;
+    padding-right: 30px;
+}
+
+.nav a:hover{
+    color: #B592A0;
+}
+
+.title {
+    padding-top: 50px;
+}
+
+.title h1{
+    font-size: 75px;
+    color: #24384E;
+}
+
+.searching {
+    padding-top: 80px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+}
+
+input {
+    flex-grow: 9;
+}
+
+button {
+    flex-grow: 1;
+}
+
+.error {
+    padding-top: 45px;
+    text-align: center;
+    font-size: 40px;
+    visibility: hidden;
+}
+
+.result {
+    margin: auto;
+    max-width: 65%;
+    height: auto;
+/*    background-color: antiquewhite;*/
+    padding-top: 50px;
+    color: #24384E;
+}
+
+.product {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image {
+/*    background-color: wheat;*/
+    padding: 0;
+    width: 40%;
+}
+
+.image img {
+    max-width: 300px;
+    max-height: 600px;
+}
+
+.nameSum {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+}
+
+.name {
+/*    background-color: azure;*/
+    width: 100%;
+    font-family: 'Munson';
+    font-weight: 600;
+    font-size: 35px;
+
+}
+
+.fullName {
+    font-size: 35px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    line-height: 35px;
+    padding-bottom: 40px;
+}
+
+.summary {
+/*    background-color: fuchsia;*/
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.ingredients {
+    height: auto;
+    padding-top: 80px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.ingredients h3{
+    font-size: 37px;
+    border-bottom: solid #24384E 3px;
+    margin-bottom: 20px;
+}
+
+.result h2{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 40px;
+    border-bottom: solid #24384E 3px;
+}
+
+.list {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 27px;
+}
+
+.list p:hover {
+    color: #B592A0;
+    cursor: cell;
+}
+
