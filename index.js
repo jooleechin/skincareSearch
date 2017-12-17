@@ -13,12 +13,13 @@ document.addEventListener('DOMContentLoaded', function () {
         event.target.value = capitolized
     }) 
     
-    var main = document.querySelector('main')
+    var container = document.querySelector('.mainContent')
     var error = document.querySelector('.error')
+    var back = document.querySelector('.backToResults')
     
     function templateRender(e) {
         var index = e.target.id
-        main.innerHTML = `
+        container.innerHTML = `
         <div class="result">
             <div class="product">
                 <div class="image">
@@ -40,10 +41,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 <h3 class="text-center">ingredients</h3>${skincare[index].ingredients}
             </div>
         </div> `
+        back.style.display = 'block'
     }
     
-    submit.addEventListener('click', function(event) {
-        event.preventDefault()
+    back.addEventListener('click', function() {
+        resultsRender();
+        back.style.display = 'none'
+    })
+    
+    
+    function resultsRender() {
         var listStr = ""
         for (var i = 0 ; i < skincare.length; i++) {
             var selected = skincare[i]
@@ -55,11 +62,12 @@ document.addEventListener('DOMContentLoaded', function () {
             } else if (input.value === skincare[i].name + " " + skincare[i].fullName) {
                 templateRender(); //clears the page to get template
             } else {
-                error.style.visibility = 'visible'
+                error.style.display = 'block'
                 error.textContent = 'product not found!'
             }
         }
-        main.innerHTML = `
+        error.style.display = 'none'
+        container.innerHTML = `
         <div class="result">
             <h2 class="text-left">Results for ${input.value}</h2>
             <div class="list">
@@ -68,9 +76,14 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>`
         var clickThing = document.querySelector('.list')
         clickThing.addEventListener('click', templateRender)
-        
-
+    }
+    
+    
+    submit.addEventListener('click', function(event) {
+        event.preventDefault()
+        resultsRender()
     }) 
+
     // searching
     //input.value is the stuff in search
     
