@@ -1,8 +1,12 @@
 html{
     max-width: 100vw;
     max-height: 100vh;
-    margin: auto;
-    
+    margin: auto;  
+}
+
+.container {
+    height: auto;
+    padding-bottom: 25px;
 }
 
 body{
@@ -51,7 +55,7 @@ input {
     flex-grow: 9;
 }
 
-button {
+#submit {
     flex-grow: 1;
 }
 
@@ -146,18 +150,28 @@ button {
     cursor: cell;
 }
 
-.backToResults{
-    color: #24384E;
-    padding-top: 30px;
-    font-size: 28px;
-    display: none;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
-.backToResults p:hover{
-    border: 2px #9C7178 dotted;
+.backToResults{
+    color: #24384E;
+    font-size: 28px;
+    display: none;
+    background-color: #B592A0;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    height: auto;
+    padding: 5px;
+}
+
+.backToResults:hover{
     padding-right: 0px;
     padding-left: 0px;
-    color: #B592A0;
+    color: #F0EAE7;
     cursor: cell;
 }
 

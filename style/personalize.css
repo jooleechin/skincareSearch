@@ -1,0 +1,117 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+    letter-spacing: 2   px;
+    background-color: #F0EAE7;
+}
+
+.nav {
+    font-size: 30px;
+    padding-right: 170px;
+    color: #24384E;
+    padding-top: 30px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #24384E;
+    padding-right: 30px;
+}
+
+.nav a:hover{
+    color: #B592A0;
+}
+
+.fullpage {
+    display: flex;
+    height: 100vh;
+    width: 98vw;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #24384E;   
+    margin: auto;
+}
+
+.fullpage label{
+    letter-spacing: 2px;
+    font-size: 70px;
+}
+
+.content{
+    max-width: 80%;
+    color: #24384E;
+}
+
+.inputStuff{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    border-radius: 8px;
+    flex-grow: 8;
+}
+
+input[type=text] {
+    font-size: 26px;
+    letter-spacing: 2px;
+    font-family: 'Special Elite', cursive;
+}
+
+button {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.intro{
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+.caption {
+    font-size: 40px;
+    margin-bottom: 80px;
+    letter-spacing: 1px;
+}
+
+.question {
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-bottom: 50px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: #d4aeb1 solid 3px; 
+    font-size: 20px;
+    line-height: 145px;
+    text-align: center;    
+/*    background: #d4aeb1;*/
+    color: #24384E;
+    letter-spacing: 3px;
+    margin: 50px;
+}
+
+.circle:hover {
+    border: #24384E dotted 4.5px; 
+    color: #B592A0;
+}
+
+.age ul li {
+    margin: 30px;
+}

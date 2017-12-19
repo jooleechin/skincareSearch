@@ -18,6 +18,7 @@ var error = document.querySelector('.error')
 var back = document.querySelector('.backToResults')
 
 function templateRender(e) {
+    window.scrollTo(0, 0) //start at top of page
     var index = e.target.id
     container.innerHTML = `
     <div class="result">
@@ -51,6 +52,7 @@ back.addEventListener('click', function() {
 
 
 function resultsRender() {
+    window.scrollTo(0, 0) //start at top of page
     var listStr = ""
     for (var i = 0 ; i < skincare.length; i++) {
         var selected = skincare[i]
@@ -87,4 +89,5 @@ submit.addEventListener('click', function(event) {
 //input.value is the stuff in search
 
 
-})
+
+})//end of DOMCONTENTLOAD

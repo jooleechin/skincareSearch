@@ -8,12 +8,13 @@
         <link href="https://fonts.googleapis.com/css?family=Work+Sans:600" rel="stylesheet">
         <link href="style/style.css" type="text/css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300|Source+Sans+Pro:900" rel="stylesheet">
+        <link href="personalize.html">
     </head>
     <body>
         <header>
             <nav class="nav justify-content-end">
                 <a href="index.html" id="home">home</a>
-                <a href="personalize.html">personalize</a>
+                <a href="personalize.html#top">personalize</a>
             </nav>
         </header>
         <main>
@@ -22,12 +23,14 @@
                     <h1 class="col-md-12">please type in the product you would like to know more about :)</h1>
                 </div>
                 <form class="searching">
-                    <input type="search" id="search" name="search" placeholder="product" autofocus>
                     <button id="submit">search</button>
+                    <input type="text" id="search" list="products" name="search" placeholder="product" autofocus>
                 </form>
             </div>
+            
+            <footer class="backToResults text-center">back to results
+            </footer>
             <p class="error"></p>
-            <div class="backToResults text-center"><p>back to results</p></div>
         </main>
         
     </body>
