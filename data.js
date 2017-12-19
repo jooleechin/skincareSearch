@@ -355,6 +355,183 @@ new newProduct(
 'T.L.C. Sukari Babyfacial™',
 '- Blend 25% (Glycolic + T.L.C. (T) Tartaric, (L) Lactic, (C) Citric Acids) and Salicylic Acid (BHA) 2%: Exfoliate surface dead skin cells and support surface turnover to smooth and brighten the appearance of skin; exfoliates pores as well as on the surface of the skin, refining pores and providing greater skin clarity while soothing redness.<br>- Gram/Chickpea Flour: Absorbs excess oil without over-drying, balances, and brightens skin’s appearance while combating dullness.<br>- Pumpkin Ferment Extract: Aids in gentle exfoliation with a rich source of fatty acids and antioxidant components, carotene, lutein, and carotenoids, and contains naturally occurring enzymes.<br>- Matcha (Green Tea Leaf Powder), Milk Thistle, and Apple Extracts: Contain potent antioxidant and anti-pollution properties, helping to condition and soothe. ',
 'Water, Glycolic Acid, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Glycerin, Sodium Hydroxide, Salicylic Acid, Aloe Barbadensis Leaf Extract, Camellia Oleifera Leaf Extract, Lactobacillus/Pumpkin Ferment Extract, Lactobacillus/Punica Granatum Fruit Ferment Extract, Opuntia Ficus-Indica Extract, Pyrus Malus (Apple) Fruit Extract, Silybum Marianum Seed Extract, Saccharomyces Cerevisiae Extract, Vitis Vinifera (Grape) Juice Extract, Camellia Sinensis Leaf Powder, Cicer Arietinum Seed Powder, Sclerocarya Birrea Seed Oil, Passiflora Edulis Seed Oil, Leuconostoc/Radish Root Ferment Filtrate, Sodium Hyaluronate Crosspolymer, Sodium PCA, Allantoin, Dipotassium Glycyrrhizate, Dextrin, Polydextrose, Sorbitan Isostearate, Amylopectin, Niacinamide, Phytosphingosine, Lactic Acid, Propanediol, Citric Acid, Titanium Dioxide, Trisodium Ethylenediamine Disuccinate, Polysorbate 60, Caprylyl Glycol, Chlorphenesin, Phenoxyethanol')
+new newProduct(
+'The Ordinary',
+'Granactive Retinoid 2% in Squalane',
+'This water-free solution contains a 2% concentration of an advanced retinoid active complex called Granactive Retinoid that has been shown to offer better results against multiple signs of ageing than retinol without any of the irritation and drawbacks common with retinol. Granactive Retinoid, an active technology from Grant Industries, is a solubilized system of Hydroxypinacolone Retinoate, a highly-advanced form of retinoid which is, in fact, a non-prescription ester of all-trans direct retinoic acid that offers a multi-fold better effect against signs of ageing than retinol, retinyl palmitate and nearly all other forms of non-prescription retinoid.',
+'Squalane, C12-15 Alkyl Benzoate, Bisabolol, Dimethyl Isosorbide, Hydroxypinacolone Retinoate, Solanum Lycopersicum (Tomato) Fruit Extract, Simmondsia Chinensis (Jojoba) Seed Oil')
+new newProduct(
+'The Ordinary',
+'Granactive Retinoid 5% in Squalane',
+'This water-free solution contains a 5% concentration of an advanced retinoid active complex called Granactive Retinoid that has been shown to offer better results against multiple signs of ageing than retinol without any of the irritation and drawbacks common with retinol. Granactive Retinoid, an active technology from Grant Industries, is a solubilized system of Hydroxypinacolone Retinoate, a highly-advanced form of retinoid which is, in fact, a non-prescription ester of all-trans direct retinoic acid that offers a multi-fold better effect against signs of ageing than retinol, retinyl palmitate and nearly all other forms of non-prescription retinoid. ',
+'Squalane, C12-15 Alkyl Benzoate, Bisabolol, Dimethyl Isosorbide, Hydroxypinacolone Retinoate, Solanum Lycopersicum (Tomato) Fruit Extract, Simmondsia Chinensis (Jojoba) Seed Oil')
+new newProduct(
+'The Ordinary',
+'Granactive Retinoid 2% Emulsion',
+'Previously called Advanced Retinoid 2%, this 2% concentration of Granactive Retinoid which is a complex of solubilized Hydroxypinacolone Retinoate (HPR). HPR is a highly-advanced form of retinoid which is, in fact, a non-prescription ester of all-trans direct retinoic acid that offers a multi-fold better effect against signs of ageing than retinol, retinyl palmitate and nearly all other forms of non-prescription retinoid.',
+'Aqua (Water), Glycerin, Ethyl Linoleate, Propanediol, Caprylic/Capric Triglyceride, Dimethyl Isosorbide, Cetearyl Isononanoate, Bisabolol, Hydroxypinacolone Retinoate, Retinol, Tasmannia Lanceolata Fruit/Leaf Extract, Inulin Lauryl Carbamate, Glyceryl Stearate, Ceteareth-12, Ceteareth-20, Cetearyl Alcohol, Carrageenan, Xanthan gum, Acacia Senegal Gum, Cetyl Palmitate, Sucrose Laurate, Polysorbate 20, Isoceteth-20, Behentrimonium Chloride, Trisodium Ethylenediamine Disuccinate, Disodium EDTA, Dehydroacetic Acid, Benzoic Acid, Ethylhexylglycerin, Phenoxyethanol, Chlorphenesin')
+new newProduct(
+'The Ordinary',
+'Retinol 0.2% in Squalane',
+'This water-free solution contains 0.2% pure Retinol, an ingredient that can reduce the appearances of fine lines, of photo damage and of general skin ageing. While Retinol has been studied extensively, it is irritating to the skin and newer technologies exist that mimic the visible effects of Retinol without causing skin irritation.',
+'Squalane, Caprylic/Capric Triglyceride, Retinol, Solanum Lycopersicum (Tomato) Fruit Extract, Simmondsia Chinensis (Jojoba) Seed Oil, BHT')
+new newProduct(
+'The Ordinary',
+'Retinol 0.5% in Squalane',
+'This water-free solution contains 0.5% pure Retinol, an ingredient that can reduce the appearances of fine lines, of photo damage and of general skin ageing. While Retinol has been studied extensively, it is irritating to the skin and newer technologies exist that mimic the visible effects of Retinol without causing skin irritation.',
+'Squalane, Caprylic/Capric Triglyceride, Retinol, Solanum Lycopersicum (Tomato) Fruit Extract, Simmondsia Chinensis (Jojoba) Seed Oil, BHT')
+new newProduct(
+'The Ordinary',
+'Retinol 1% in Squalane',
+'This water-free solution contains 1% pure Retinol, an ingredient that can reduce the appearances of fine lines, of photo damage and of general skin ageing. While Retinol has been studied extensively, it is irritating to the skin and newer technologies exist that mimic the visible effects of Retinol without causing skin irritation.',
+'Squalane, Caprylic/Capric Triglyceride, Retinol, Solanum Lycopersicum (Tomato) Fruit Extract, Simmondsia Chinensis (Jojoba) Seed Oil, BHT')
+new newProduct(
+'The Ordinary',
+'Retinol 1%',
+'This water-free solution contains 1% pure Retinol, an ingredient that can reduce the appearances of fine lines, of photo damage and of general skin ageing. While Retinol has been studied extensively, it is irritating to the skin and newer technologies exist that mimic the visible effects of Retinol without causing skin irritation. (Now discontinued)',
+'Cyclopentasiloxane, Caprylyl Methicone, Isoamyl Laurate, Ethyl Methicone, PEG-12 Dimethicone/PPG-20 Crosspolymer, Dimethicone/Vinyl Dimethicone Crosspolymer, Propanediol, Polysorbate 20, Retinol, Isoamyl Cocoate, Tocopherol, BHA, BHT')
+new newProduct(
+'The Ordinary',
+'Vitamin C Suspension 30% in Silicone',
+'This product is a water-free suspension of 30% Ascorbic Acid powder. Vitamin C is an effective antioxidant and its pure form of L-Ascorbic Acid has been shown to help reverse multiple signs of skin ageing while brightening the skin when applied topically. This water-free formula provides 30% pure L-Ascorbic Acid which remains completely stable due to the absence of water. This treatment is ideally applied at bedtime.',
+'Dimethicone, Ascorbic Acid, Polysilicone-11, PEG-10 Dimethicone')
+new newProduct(
+'The Ordinary',
+'Vitamin C Suspension 23% + HA Spheres 2%',
+'This product is a water-free suspension of 23% L-Ascorbic Acid powder. Vitamin C is an effective antioxidant and its pure form of L-Ascorbic Acid has been shown to reverse multiple signs of skin ageing while brightening the skin when applied topically. This water-free, silicone-free formula provides 23% pure L-Ascorbic Acid which remains completely stable due to the absence of water. The system is supported with addition of dehydrated spheres of Hyaluronic Acid to offer visible surface smoothing alongside the benefits of Vitamin C. This treatment is ideally applied at bedtime.',
+'Ascorbic Acid, Squalane, Isodecyl Neopentanoate, Isononyl Isononanoate, Coconut Alkanes, Ethylene/Propylene/Styrene Copolymer, Ethylhexyl Palmitate, Silica Dimethyl Silylate, Sodium Hyaluronate, Glucomannan, Coco-Caprylate/Caprate, Butylene/Ethylene/Styrene Copolymer, Acrylates/Ethylhexyl Acrylate Crosspolymer, Trihydroxystearin, BHT')
+new newProduct(
+'The Ordinary',
+'Ascorbyl Glucoside Solution 12%',
+'Vitamin C is an effective antioxidant, brightens the skin tone and reduces signs of ageing. In its pure form, Vitamin C is unstable in water. Ascorbyl Glucoside is a water-soluble derivative of Vitamin C. It is much more stable in water but it is less potent than direct L-Ascorbic Acid. Being more compatible with water allows for a very pleasant serum texture. It is considered a gold standard of Vitamin C derivatives due to its high stability and comfortable use, but it\'s impossible to achieve extremely high L-Ascorbic Acid potency with this solution. Aside from the general benefits of pure Vitamin C, Ascorbyl Glucoside has been shown to offer specific skin brightening benefits.',
+'Aqua (Water), Ascorbyl Glucoside, Propanediol, Aminomethyl Propanol, Triethanolamine, Isoceteth-20, Xanthan gum, Dimethyl Isosorbide, Ethoxydiglycol, Trisodium Ethylenediamine Disuccinate, 1,2-Hexanediol, Caprylyl Glycol')
+new newProduct(
+'The Ordinary',
+'Ascorbyl Tetraisopalmitate Solution 20% in Vitamin F',
+'Vitamin C is an effective antioxidant, brightens the skin tone and reduces signs of ageing. Ascorbyl Tetraisopalmitate is an oil-soluble derivative of Vitamin C that can be used in higher concentrations without drawbacks. It is one of the most stable derivatives of Vitamin C but, being a derivative, its potency will not be directly comparable to pure L-Ascorbic Acid. It is provided in this oil-format formula in combination with Vitamin F, also known as essential fatty acids. Aside from the general benefits of pure Vitamin C, Ascorbyl Tetraisopalmiate has been shown to offer specific skin brightening benefits.',
+'Coconut Alkanes, Tetrahexyldecyl Ascorbate, Ethyl Linoleate, Coco-Caprylate/Caprate, Simmondsia Chinensis (Jojoba) Seed Oil, Solanum Lycopersicum (Tomato) Fruit Extract, Squalane')
+new newProduct(
+'The Ordinary',
+'Magnesium Ascorbyl Phosphate 10%',
+'Vitamin C is an effective antioxidant, brightens the skin tone and reduces signs of ageing. In its pure form, Vitamin C is unstable in water. Magnesium Ascorbyl Phosphate (MAP) is a water-soluble derivative of Vitamin C. It is more stable in water but it is less potent than direct L-Ascorbic Acid. It is compatible with water but higher concentrations cannot be offered in a low-viscosity serum format and requires emulsification to form a cream. This formula is a light cream that offers 10% pure MAP (very high solubilized concentration). Aside from the general benefits of pure Vitamin C, MAP has been shown to offer specific skin brightening benefits, more so than other derivatives of Vitamin C.',
+'Aqua (Water), Coco Caprylate/caprate, Magnesium Ascorbyl Phosphate, Isodecyl Neopentanoate, Plukenetia Volubilis Seed Oil, Coconut Alkanes, Disteardimonium Hectorite, Polyglyceryl-3 Diisostearate, Polyglycerol-3 Polyricinoleate, Glycerin, Hexamethyldisiloxane, Terminalia Ferdinandiana Fruit Extract, Tocopherol, Sodium Chloride, Phenoxyethanol, Chlorphenesin')
+new newProduct(
+'The Ordinary',
+'Glycolic Acid 7% Toning Solution',
+'Glycolic Acid is an alpha hydroxyl acid that exfoliates the skin. This 7% toning solution offers mild exfoliation for improved skin radiance and visible clarity. The formula also improves the appearance of skin texture with continued use.<br>This formula contains a studied Tasmanian Pepperberry derivative to help reduce irritation associated with acid use. This derivative is of plant origin and varies in colour seasonally and this colour variation may be apparent in the formula from time to time. The formula is further supported with inclusion of ginseng root and aloe vera for both visible radiance and soothing benefits.<br>This pH of this formula is approximately 3.6. Glycolic Acid has a pKa of 3.6.',
+'Aqua (Water), Glycolic Acid, Rosa damascena flower water, Centaurea cyanus flower water, Aloe Barbadensis Leaf Water, Propanediol, Glycerin, Triethanolamine, Aminomethyl Propanol, Panax Ginseng Root Extract, Tasmannia Lanceolata Fruit/Leaf Extract, Aspartic Acid, Alanine, Glycine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Glutamic Acid, Arginine, PCA, Sodium PCA, Sodium Lactate, Fructose, Glucose, Sucrose, Urea, Hexyl Nicotinate, Dextrin, Citric Acid, Polysorbate 20, Gellan Gum, Trisodium Ethylenediamine Disuccinate, Sodium Chloride, Hexylene Glycol, Potassium Sorbate, Sodium Benzoate, 1,2-Hexanediol, Caprylyl Glycol')
+new newProduct(
+'The Ordinary',
+'Salicylic Acid 2% Solution',
+'Salicylic Acid is a beta hydroxyl acid that exfoliates the skin. This 2% treatment solution helps exfoliate the inside walls of pores to fight the appearance of blemishes and for better visible skin clarity with continued use.',
+'Aqua (Water), Hamamelis Virginiana Leaf Water, Cocamidopropyl Dimethylamine, Salicylic Acid, Dimethyl Isosorbide, Trisodium Ethylenediamine Disuccinate, Citric Acid, Polysorbate 20, Hydroxyethylcellulose, Ethoxydiglycol, Potassium Sorbate, Sodium Benzoate, 1,2-hexanediol, Caprylyl Glycol')
+new newProduct(
+'The Ordinary',
+'Azelaic Acid Suspension 10%',
+'Found in grains, Azelaic Acid is produced naturally by yeast that lives on normal skin. It brightens the skin tone while visibly improving the evenness of skin texture and reducing the look of blemishes. It is a multi-functional support ingredient for all skin types and also acts as an effective antioxidant. This formula offers a very high 10% concentration of high-purity Azelaic Acid in a lightweight cream-gel system.',
+'Aqua (Water), Isodecyl Neopentanoate, Dimethicone, Azelaic Acid, Dimethicone/Bis-Isobutyl PPG-20 Crosspolymer, Dimethyl Isosorbide, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Polysilicone-11, Isohexadecane, Tocopherol, Trisodium Ethylenediamine Disuccinate, Isoceteth-20, Polysorbate 60, Triethanolamine, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin')
+new newProduct(
+'The Ordinary',
+'Lactic Acid 5% + HA',
+'Lactic Acid is an alpha hydroxyl acid that exfoliates the skin. This 5% formulation offers very mild exfoliation and is supported with a purified Tasmanian pepperberry known to reduce signs of inflammation and sensitivity that is often associated with exfoliation. This formula contains a studied Tasmanian Pepperberry derivative to help reduce irritation associated with acid use. This derivative is of plant origin and varies in colour seasonally and this colour variation may be apparent in the formula from time to time. This pH of this formula is approximately 3.8. Lactic Acid has a pKa of 3.8.',
+'Aqua (Water), Lactic Acid, Glycerin, Pentylene Glycol, Propanediol, Sodium Hyaluronate Crosspolymer, Tasmannia Lanceolata Fruit/Leaf Extract, Hydroxyethylcellulose, Isoceteth-20, Trisodium Ethylenediamine Disuccinate, Sodium Hydroxide, Ethylhexylglycerin, 1,2-Hexanediol, Caprylyl Glycol')
+new newProduct(
+'The Ordinary',
+'Lactic Acid 10% + HA',
+'Lactic Acid is an alpha hydroxyl acid that exfoliates the skin. This 10% formulation offers mild exfoliation and is supported with a purified Tasmanian pepperberry known to reduce signs of inflammation and sensitivity that is often associated with exfoliation. This formula contains a studied Tasmanian Pepperberry derivative to help reduce irritation associated with acid use. This derivative is of plant origin and varies in colour seasonally and this colour variation may be apparent in the formula from time to time. This pH of this formula is approximately 3.8. Lactic Acid has a pKa of 3.8.',
+'Aqua (Water), Lactic Acid, Glycerin, Pentylene Glycol, Propanediol, Sodium Hydroxide, Sodium Hyaluronate Crosspolymer, Tasmannia Lanceolata Fruit/Leaf Extract, Hydroxyethylcellulose, Isoceteth-20, Trisodium Ethylenediamine Disuccinate, Ethylhexylglycerin, 1,2-Hexanediol, Caprylyl Glycol')
+new newProduct(
+'The Ordinary',
+'AHA 30% + BHA 2% Peeling Solution',
+'With 30% Alpha Hydroxyl Acids (Glycolic/Lactic/Tartaric/Citric), 2% Beta Hydroxyl Acid (Salicylic Acid), Hyaluronic Acid Crosspolymer, Vitamin B5, Black Carrot and Tasmanian Pepperberry. Alpha hydroxyl acids (AHA) exfoliate the skin\'s topmost surface for a brighter and more even appearance. Beta hydroxyl acids (BHA) also exfoliate the skin with an extended function to help clear pore congestion. This combined 32% AHA/BHA solution offers deeper exfoliation to help fight visible blemishes and for improved skin radiance. The formula also improves the appearance of skin texture and reduces the look of fine lines with continued use. This formula contains a studied Tasmanian Pepperberry derivative to help reduce irritation associated with acid use. This derivative is of plant origin and varies in colour seasonally and this colour variation may be apparent in the formula from time to time. This formula is further supported with a crosspolymer form of hyaluronic acid for comfort, Vitamin B5 to assist healing and black carrot as an antioxidant. This pH of this formula is approximately 3.6. Glycolic Acid, the primary AHA used in the formula, has a pKa of 3.6.',
+'Glycolic Acid, Aqua (Water), Aloe Barbadensis Leaf Water, Sodium Hydroxide, Daucus Carota Sativa Extract, Propanediol, Cocamidopropyl Dimethylamine, Salicylic Acid, Potassium Citrate, Lactic Acid, Tartaric Acid, Citric Acid, Panthenol, Sodium Hyaluronate Crosspolymer, Tasmannia Lanceolata Fruit/Leaf Extract, Glycerin, Pentylene Glycol, Xanthan gum, Polysorbate 20, Trisodium Ethylenediamine Disuccinate, Potassium Sorbate, Sodium Benzoate, Ethylhexylglycerin, 1,2-Hexanediol, Caprylyl Glycol')
+new newProduct(
+'The Ordinary',
+'Alpha Lipoic Acid 5%',
+'Alpha Lipoic Acid is a highly potent antioxidant and can restore a renewed skin appearance, improving visible skin texture and tone when applied topically. This formulation uses an exceptionally high 5% concentration of high-purity Alpha Lipoic Acid.<br>1. Alpha Lipoic Acid is highly sensitive to sunlight. Please do not expose to direct sunlight. Application to face is recommended at nighttime only.<br>2. Alpha Lipoic Acid is less stable in formulations that contain water and use of formulations of ALA containing water is highly discouraged. This formulation is water-free and may feel slightly "oily" for a few seconds after application.<br>3. This formulation contains an extremely high concentration of ALA. Daily use is not recommended since such a high frequency of use can cause skin sensitivity. Please follow suggested use frequency.',
+'Propanediol, Thioctic Acid')
+new newProduct(
+'The Ordinary',
+'Resveratrol 3% + Ferulic Acid 3%',
+'This formula combines very high concentrations of two of the most powerful and important antioxidants in skincare: Resveratrol and Ferulic Acid. Resveratrol is a natural phenol found in several plants and our pure source is 100% derived from Japanese Knotweed. Ferulic Acid is a high-potency phytochemical antioxidant found naturally in walls of plant cells. Note: Water can impair the stability of any antioxidant. This formula does not contain any water, silicones, oils or alcohol.',
+'Propanediol, Resveratrol, Ferulic Acid')
+new newProduct(
+'The Ordinary',
+'EUK 134 0.1%',
+'EUK 134 is a mimetic of superoxide dismutase and catalase, forming an exceptionally rare self-regenerating molecule that scavenges superoxide free radicals, eliminates hydrogen peroxide and converts reactive oxygen species into water and oxygen. While it has been around for many years, very few products on the market do use this truly superb antioxidant which can regenerate itself to offer round-the-clock antioxidant support. The only issue with EUK 134 is that it must not be used immediately with strong acids such as suspensions of Ascorbic Acid. Strong acids will completely destroy EUK 134 which is based on manganese. ',
+'Propanediol, Ethylbisiminomethylguaiacol manganese chloride')
+new newProduct(
+'The Ordinary',
+'Hyaluronic Acid 2% + B5',
+'Hyaluronic Acid (HA) can attract up to 1,000 times its weight in water. The molecular size of HA determines its depth of delivery in the skin. This formulation combines low-, medium- and high-molecular weight HA, as well as a next-generation HA crosspolymer at a combined concentration of 2% for multi-depth hydration. This system is supported with the addition of Vitamin B5 which also enhances surface hydration. ',
+'Aqua (Water), Sodium Hyaluronate, Pentylene Glycol, Propanediol, Sodium Hyaluronate Crosspolymer, Panthenol, Ahnfeltia Concinna Extract, Glycerin, Trisodium Ethylenediamine Disuccinate, Citric Acid, Isoceteth-20, Ethoxydiglycol, Ethylhexylglycerin, Hexylene Glycol, 1,2-Hexanediol, Phenoxyethanol, Caprylyl Glycol')
+new newProduct(
+'The Ordinary',
+'Natural Moisturizing Factors + HA',
+'Natural Moisturizing Factors (NMF) are elements that keep the outer layer of the skin protected and well-hydrated. NMF are made up of multiple amino acids, fatty acids, triglycerides, urea, ceramides, phospholipids, glycerin, saccharides, sodium PCA, hyaluronic acid and many other compounds that are naturally present in the skin.<br>This formula offers non-greasy hydration that acts as a direct topical supplement of impaired NMF components. It contains 11 amino acids, phospholipids, alpha/beta/gamma fatty acids, triglycerides, sterols and sterol esters, glycerin, ceramide precursors, urea, saccharides, sodium PCA and hyaluronic acid. It offers immediate hydration and lasting results with continued use. ',
+'Aqua (Water), Caprylic/Capric Triglyceride, Cetyl Alcohol, Propanediol, Stearyl Alcohol, Glycerin, Sodium Hyaluronate, Arginine, Aspartic Acid, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Glucose, Maltose, Fructose, Trehalose, Sodium PCA, PCA, Sodium Lactate, Urea, Allantoin, Linoleic Acid, Oleic Acid, Phytosteryl Canola Glycerides, Palmitic Acid, Stearic Acid, Lecithin, Triolein, Tocopherol, Carbomer, Isoceteth-20, Polysorbate 60, Sodium Chloride, Citric Acid, Trisodium Ethylenediamine Disuccinate, Pentylene Glycol, Triethanolamine, Sodium Hydroxide, Phenoxyethanol, Chlorphenesin.')
+new newProduct(
+'The Ordinary',
+'100% Plant-Derived Squalane',
+'Squalane is a saturated and stable hydrocarbon that is found naturally in the skin. It has very high emollience, is an exceptional hydrator and can prevent ongoing loss of hydration that impairs dermal suppleness. Squalane is non-comedogenic and is suitable for use on all skin types. It can also be applied to hair to increase heat protection, add shine and reduce breakage potential.<br>Note: This product uses 100% pure plant-derived Squalane that is ECOCERT approved and is a USDA Certified Bio-based Product.',
+'Squalane')
+new newProduct(
+'The Ordinary',
+'100% Organic Cold-Pressed Rose Hip Seed Oil',
+'This formulation uses 100% pure Rosehip Seed Oil that is both cold-pressed and organic. Rosehip Seed Oil is rich in linoleic acid, linolenic acid and pro-vitamin A, all of which degrade when the oil extraction process involves heat. While cold-pressed extraction is complex, it preserves all of the quality of this important oil which has been shown to reduce signs of photo-ageing and many other skin conditions. ',
+'Rosa Canina Seed Oil.')
+new newProduct(
+'The Ordinary',
+'100% Organic Cold-Pressed Moroccan Argan Oil',
+'This formulation uses 100% pure Moroccan Argan Seed Oil extracted through a cold pressing that preserves the integrity of the oil\'s fatty acids, vitamins, phenols (including caffeic acid) and carotenes. Argan oil\'s main fatty acid content is made up of oleic acid and linoleic acid. The oil supports healthy skin and reduces the appearance of flaking. It also adds soft sheen and strength to hair. ',
+'Argania Spinosa Kernel Oil')
+new newProduct(
+'The Ordinary',
+'100% Cold-Pressed Virgin Marula Oil',
+'Referred to as a "luxury" oil by some, this antioxidant-rich oil is obtained from the kernels of the fruits of Marula tree. It\'s mostly composed of oleic acid and linoleic acid but also contains procyanidin, catechins and flavanoids. Marula oil offers antioxidants, hydrates the skin and is claimed to help restore a radiant tone. This formula contains only cold-pressed virgin African Marula oil that is 100% unrefined.',
+'Sclerocarya Birrea Seed Oil')
+new newProduct(
+'The Ordinary',
+'High-Adherence Silicone Primer',
+'This formula uses advanced adaptive silicones to act as a matte, hydrating, blurring primer for makeup that looks higher in definition and adheres for longer. The formula can also be used alone as a non-greasy hydrator that reduces the looks of pores and of imperfections. ',
+'Aqua (Water), Isodecyl Neopentanoate, Dimethicone, Dimethicone/Bis-Isobutyl PPG-20 Crosspolymer, Hydroxyethyl Acrylate/Sodium Acryloyldimethyl Taurate Copolymer, Isohexadecane, Hexamethyldisiloxane, Isoceteth-20, Polysilicone-11, Tocopherol, Polysorbate 60, Trisodium Ethylenediamine Disuccinate, Phenoxyethanol, Chlorphenesin.')
+new newProduct(
+'The Ordinary',
+'High-Spreadability Fluid Primer',
+'This new generation of primer is a lightweight serum-like formula that increases the spreadability of subsequent complexion makeup to help avoid the unnatural and uneven accumulation of pigments especially around the eyes and on dry skin. The formula also acts as a light, non-oily surface hydrator for a natural dewy look.',
+'Hexamethyldisiloxane, Cyclopentasiloxane, Caprylyl Methicone, PEG-12 Dimethicone/PPG-20 Crosspolymer, Dimethicone, Dimethicone/Vinyl Dimethicone Crosspolymer, Tocopherol')
+new newProduct(
+'The Ordinary',
+'Niacinamide 10% + Zinc 1%',
+'Niacinamide (Vitamin B3) is indicated to reduce the appearance of skin blemishes and congestion. A high 10% concentration of this vitamin is supported in the formula by zinc salt of pyrrolidone carboxylic acid to balance visible aspects of sebum activity.<br>Contraindications: If topical Vitamin C is used as part of skincare, it should be applied at alternate times with this formula (ideally Vitamin C in the PM and this formula in the AM). Otherwise, Niacinamide can affect integrity of pure-form Vitamin C (L-Ascorbic Acid). ',
+'Aqua (Water), Niacinamide, Pentylene Glycol, Zinc PCA, Dimethyl Isosorbide, Tamarindus Indica Seed Gum, Xanthan gum, Isoceteth-20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin')
+new newProduct(
+'The Ordinary',
+'“Buffet”',
+'This formula combines a comprehensive array of studied technologies to target multiple signs of ageing at once. The technologies are Matrixyl 3,000 peptide complex (with palmitoyl tetrapeptide-7), Matrixyl Synthe\'6 peptide complex (with palmitoyl tripeptide-38), Syn-Ake peptide complex (with dipeptide diaminobutyroyl benzylamide diacetate), Relistase peptide complex (with acetylarginyltryptophyl diphenylglycine), Argirelox peptide complex (with acetyl hexapeptide-8, pentapeptide-18), Probiotic complex (with lactococcus lactis lysate), in a base of 11 skin-friendly amino acids and multiple hyaluronic acid complexes. The total concentration of these technologies in the formula by weight is 25.1%.',
+'Aqua (Water), Glycerin, Lactococcus Ferment Lysate, Acetyl Hexapeptide-8, Pentapeptide-18, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-38, Dipeptide Diaminobutyroyl Benzylamide Diacetate, Acetylarginyltryptophyl Diphenylglycine, Sodium Hyaluronate Crosspolymer, Sodium Hyaluronate, Allantoin, Glycine, Alanine, Serine, Valine, Isoleucine, Proline, Threonine, Histidine, Phenylalanine, Arginine, Aspartic Acid, Trehalose, Fructose, Glucose, Maltose, Urea, Sodium PCA, PCA, Sodium Lactate, Citric Acid, Hydroxypropyl Cyclodextrin, Sodium Chloride, Sodium Hydroxide, Butylene Glycol, Pentylene Glycol, Acacia Senegal Gum, Xanthan Gum, Carbomer, Polysorbate 20, PPG-26-Buteth-26, PEG-40 Hydrogenated Castor Oil, Trisodium Ethylenediamine Disuccinate, Ethoxydiglycol, Sodium Benzoate, Caprylyl Glycol, Ethylhexylglycerin, Phenoxyethanol, Chlorphenesin.')
+new newProduct(
+'The Ordinary',
+'Matrixyl 10% + HA',
+'Matrixyl is a trademarked peptide composition developed by Sederma in France. This highly-effective composition has been shown to reduce the look of static and dynamic wrinkles. This formula contains two generations of Matrixyl, Matrixyl 3000 and Matrixyl Synthe\'6, at a combined concentration of 10% by weight in a specialized Hyaluronic Acid delivery system. The peptide in Matrixyl 3000 is palmitoyl tetrapeptide-7 and the peptide in Matrixyl Synthe\'6 is palmitoyl tripeptide-38.',
+'Aqua (Water), Glycerin, Butylene Glycol, Palmitoyl Tripeptide-1, Palmitoyl Tetrapeptide-7, Palmitoyl Tripeptide-38, Sodium Hyaluronate, Hydroxypropyl Cyclodextrin, PPG-26-Buteth-26, PEG-40 Hydrogenated Castor Oil, Polyacrylate Crosspolymer-6, Trisodium Ethylenediamine Disuccinate, Carbomer, Polysorbate 20, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin.')
+new newProduct(
+'The Ordinary',
+'Alpha Arbutin 2% + HA',
+'Alpha Arbutin reduces the looks of spots and hyper-pigmentation. It\'s used at a high 2% concentration versus a standard concentration of 1% and supported with a next-generation form of Hyaluronic Acid for enhanced delivery. Alpha Arbutin is much stronger in effect than Arbutin or Beta Arbutin.',
+'Aqua (Water), Alpha-Arbutin, Polyacrylate Crosspolymer-6, Hydrolyzed Sodium Hyaluronate, Propanediol, PPG-26-Buteth-26, PEG-40 Hydrogenated Castor Oil, Lactic Acid, Trisodium Ethylenediamine Disuccinate, Ethoxydiglycol, Phenoxyethanol, Chlorphenesin')
+new newProduct(
+'The Ordinary',
+'Caffeine Solution 5% + EGCG',
+'This light-textured formula contains an extremely high 5% concentration of caffeine, supplemented with highly-purified Epigallocatechin Gallatyl Glucoside (EGCG) from green tea leaves. Independent studies have shown that topical use of each of caffeine and EGCG can help reduce looks of puffiness and of dark circles in the eye contour. Additional studies have shown that caffeine can also reduce the appearance of cellulite. ',
+'Aqua (Water), Caffeine, Maltodextrin, Glycerin, Propanediol, Epigallocatechin Gallatyl Glucoside, Gallyl Glucoside, Hyaluronic Acid, Oxidized Glutathione, Melanin, Glycine Soja (Soybean) Seed Extract, Urea, Pentylene Glycol, Hydroxyethylcellulose, Polyacrylate Crosspolymer-6, Xanthan gum, Lactic Acid, Dehydroacetic Acid, Trisodium Ethylenediamine Disuccinate, Propyl Gallate, Dimethyl Isosorbide, Ethoxydiglycol, Benzyl Alcohol, 1,2-Hexanediol, Ethylhexylglycerin, Phenoxyethanol, Caprylyl Glycol')
+new newProduct(
+'The Ordinary',
+'Argireline Solution 10%',
+'Argireline is a trademark owned by Barcelona-based Lipotec. It is a proprietary solution of Acetyl Hexapeptide-8. Controlled studies have shown that Argireline improves the appearance of facial areas prone to developing dynamic folds, including around the eyes and in the forehead area. ',
+'Aqua (Water), Propanediol, Acetyl Hexapeptide-8, Trisodium Ethylenediamine Disuccinate, Gellan Gum, Sodium Chloride, Isoceteth-20, Ethoxydiglycol, Potassium Sorbate, Phenoxyethanol, Chlorphenesin')
+
+
 
 
 

@@ -53,7 +53,7 @@ function question2() {
             </ul>
         </div>
     `
-    var circle = document.querySelector('.circle')
+    var circle = document.querySelectorAll('.options li')
     circle.addEventListener('click', function(event) {
         question3()
     })
