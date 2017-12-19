@@ -21,7 +21,7 @@ submit.addEventListener('click', function() {
     content.innerHTML = `
         <p class="intro text-center">hi ${firstName} :) now that we're no longer strangers, let's get to know each other!</p>
     `
-    setTimeout(question1, 1000)
+    setTimeout(question1, 3000)
 })
 
 function question1() {
@@ -34,10 +34,12 @@ function question1() {
             </ul>
         </div>
     `
-    var circle = document.querySelector('.circle')
-    circle.addEventListener('click', function(event) {
-        question2()
-    })
+    var options = document.querySelectorAll('.options li')
+    for (var i = 0; i < options.length; i++ ){
+        options[i].addEventListener('click',function() {
+            question2()
+        })
+    }
 }
     
 function question2() {
@@ -52,12 +54,17 @@ function question2() {
                 <li class="circle">44+</li>
             </ul>
         </div>
+        <div class="backButton">
+            <button type="button"><span> back</span></button>
+        </div>
     `
-    var circle = document.querySelectorAll('.options li')
-    circle.addEventListener('click', function(event) {
-        question3()
-    })
-}
+    var options = document.querySelectorAll('.options li')
+    for (var i = 0; i < options.length; i++ ){
+        options[i].addEventListener('click',function() {
+            question3()
+        })
+    }
+}//end of Q2
     
 function question3() {
     content.innerHTML = `
@@ -71,35 +78,76 @@ function question3() {
                 <li class="circle">dehydrated</li>
             </ul>
         </div>
+        <div class="backButton">
+            <button type="button"><span> back</span></button>
+        </div>
     `
-    var circle = document.querySelector('.circle')
-    circle.addEventListener('click', function(event) {
-        question4()
-    })
-}
+    var options = document.querySelectorAll('.options li')
+    for (var i = 0; i < options.length; i++ ){
+        options[i].addEventListener('click',function() {
+            question4()
+        })
+    }
+}//end of Q3
     
 function question4() {
     var skinConcern = []
     content.innerHTML = `
-        <p class="text-center question">what is your skin concern? (you can select more than one)</p>
+        <p class="text-center question skin">what is your skin concern? (you can select more than one)</p>
         <div class="skinConcern">
             <ul class="options">
-                <li class="circle">large pores</li>
-                <li class="circle">oily skin</li>
                 <li class="circle">acne</li>
-                <li class="circle">hyperpigmentation</li>
-                <li class="circle">uneven skin tone</li>
-                <li class="circle">sun spots</li>
-                <li class="circle">textured skin</li>
-                <li class="circle">dry skin</li>
+                <li class="circle overflow">hyper-<br>pigmentation</li>
+                <li class="circle overflow">uneven skin tone</li>
+                <li class="circle overflow">pores/<br>oil control</li>
+                <li class="circle">anti-aging</li>
+                <li class="circle overflow">textured<br>skin</li>
+                <li class="circle">hydration</li>
             </ul>
         </div>
+        <div class="buttons">
+            <div class="submitButton skin">
+                <button type="submit" id="skinConcernSubmit">submit</button>
+            </div>
+            <div class="backButton skin">
+                <button type="button"><span> back</span></button>
+            </div>
+        </div>
     `
-    var circle = document.querySelector('.circle')
-    circle.addEventListener('click', function(event) {
-        skinConcern.push(circle.textContent)
+    var options = document.querySelectorAll('.options li')
+    var submit = document.querySelector('button')
+    
+    var onClick = function (e) {
+        var clicked = event.target
+        if (clicked.classList.contains('selected')){
+            clicked.classList.remove('selected')
+        } else {
+            clicked.classList.add('selected')
+        }
+    } //funx for selected
+    
+    for (var i = 0; i< options.length; i++) {
+        options[i].addEventListener('click', onClick)
+    } //making selected highlighted
+    
+    submit.addEventListener('click', function() {
+        question5()
     })
+    
+}//end of question4
+
+function question5() {
+    content.innerHTML = `
+        <p class="text-center question">do you have any skin conditions?<br>(select all that apply)</p>
+        <div class="skinCondition">
+            <input type="text" name="skinConditions" id="skinConditions" placeholder="skin conditions"  autofocus required>
+        </div>
+        <div class="backButton">
+            <button type="button"><span> back</span></button>
+        </div>
+    `
 }
+
 
 
 

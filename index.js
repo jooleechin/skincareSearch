@@ -17,6 +17,32 @@ var container = document.querySelector('.mainContent')
 var error = document.querySelector('.error')
 var back = document.querySelector('.backToResults')
 
+new autoComplete({
+    selector: 'input[name="search"]',
+    minChars: 2,
+    source: function(term, suggest){
+        var matches = []
+        var choice = ""
+        for (var i = 0 ; i < skincare.length; i++) {
+            choice = skincare[i].name + " " + skincare[i].fullName
+            if (choice.indexOf(term) !== -1) {
+                matches.push(choice)
+            }
+        }
+        
+        matches.sort(function (a, b) {
+            if (a.startsWith(term) && !b.startsWith(term)) {
+                return -1
+            } else {
+                return 1
+            }
+        })
+        
+        suggest(matches);
+    }
+}) //autocomplete
+
+
 function templateRender(e) {
     window.scrollTo(0, 0) //start at top of page
     var index = e.target.id

@@ -94,6 +94,7 @@ button {
 }
 
 .circle {
+    cursor: cell;
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -114,4 +115,123 @@ button {
 
 .age ul li {
     margin: 30px;
+}
+
+.question.skin {
+    margin-bottom: 30px;
+}
+
+.skinType ul li {
+    width: 160px;
+    height: 160px;
+    line-height: 155px;
+    margin: 30px;
+}
+
+.skinConcern ul li {
+    margin: 20px;
+    width: 180px;
+    height: 180px;
+    line-height: 175px;
+    cursor: cell;
+}
+
+.circle.overflow {
+    line-height: 30px;
+    padding-top: 60px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.submitButton.skin{
+    margin-left: 30%;
+    order: 2;
+}
+
+.submitButton.skin button{
+    width: 400px;
+}
+
+#skinConcernSubmit {
+    outline: none;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 12px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 10px;
+    box-shadow: 6px 6px #A64253;
+    cursor: cell;
+    border: #A64253 1px solid;
+}
+
+.backButton {
+    margin-top: 120px;
+}
+
+.backButton.skin {
+    margin-top: 0px;
+    order: 1;
+}
+
+.backButton button{
+    outline: none;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 12px;
+    padding: 10px;
+    box-shadow: 6px 6px #A64253;
+    cursor: cell;
+    border: #A64253 1px solid;
+    transition: all 0.5s;
+}
+
+.backButton span {
+    cursor: cell;
+    display: inline-block;
+    position: relative;
+}
+
+.backButton button span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -20px;
+  transition: 0.5s;
+  color: #24384E;
+}
+
+.backButton button:active {
+    transform: translateY(3px) translateX(3px);
+    box-shadow: 3px 3px #A64253;
+}
+
+.backButton button:hover span {
+  padding-left: 25px;
+}
+
+.backButton button:hover span:after {
+  opacity: 1;
+  left: 0;
+}
+
+#skinConcernSubmit:hover{
+    background-color: #B592A0;
+    color: #24384E;
+    border: #B592A0 1px solid;
+}
+
+#skinConcernSubmit:active {
+    transform: translateY(3px) translateX(3px);
+    box-shadow: 3px 3px #A64253;
+}
+
+.selected {
+    border: #24384E dotted 4.5px; 
+    color: #B592A0;
 }
