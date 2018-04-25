@@ -15,6 +15,9 @@
 
 ## Screenshots
 
+## Quiz Feature:
+![Alt text](./assets/skin.gif)
+
 ## Splash Screen:
 ![Alt text](./assets/splash.png)
 
