@@ -2,8 +2,9 @@ document.addEventListener('DOMContentLoaded', function () {
     
 var submit = document.querySelector('#submit')
 var input = document.querySelector('#search')
+let skincareMatchArr
 
-input.addEventListener('keyup', function(event) {
+autocap = function autoCap(event) {
     var text = event.target.value 
     var textArr = text.split(' ')
     var capitol = textArr.map(function (word) {
@@ -11,7 +12,9 @@ input.addEventListener('keyup', function(event) {
     })
     var capitolized = capitol.join(' ')
     event.target.value = capitolized
-}) //capitalizes the first letter of each word after space
+}
+
+input.addEventListener('keyup', autocap) //capitalizes the first letter of each word after space
 
 var container = document.querySelector('.mainContent')
 var error = document.querySelector('.error')
@@ -37,10 +40,34 @@ new autoComplete({
                 return 1
             }
         })
-        
         suggest(matches);
     }
 }) //autocomplete
+
+function resultListRender() {
+    container.innerHTML = `
+    <div class="result">
+        <div class="product">
+            <div class="image">
+                <img src="images/${skincareMatchArr[i].fullName}.png" alt="placeholder">
+            </div>
+            <div class="nameSum">
+                <div class="name text-left">
+                    ${skincareMatchArr[i].name}
+                </div>
+                <div class="fullName text-left">
+                    ${skincareMatchArr[i].fullName}
+                </div>
+                <div class="summary">
+                    ${skincareMatchArr[i].desc}
+                </div>
+            </div>
+        </div> 
+        <div class="ingredients">
+            <h3 class="text-center">ingredients</h3>${skincareMatchArr[index].ingredients}
+        </div>
+    </div> `
+}
 
 
 function templateRender(e) {
@@ -78,32 +105,71 @@ back.addEventListener('click', function() {
 
 
 function resultsRender() {
+    error.style.display = 'block'
     window.scrollTo(0, 0) //start at top of page
     var listStr = ""
-    for (var i = 0 ; i < skincare.length; i++) {
-        var selected = skincare[i]
-        if (input.value.includes(skincare[i].name)) {
-            listStr += `
-            <p id='${i}'>
-                ${selected.name} ${selected.fullName}
-            </p>`         
-        } else if (input.value === skincare[i].name + " " + skincare[i].fullName) {
-            templateRender(); //clears the page to get template
+    var selected = skincare.find(function(product) {
+        if (input.value === product.name + " " + product.fullName) {
+            return product
+        }
+    })
+    if (selected) {
+        container.innerHTML = `
+        <div class="result">
+            <div class="product">
+                <div class="image">
+                    <img src="images/${selected.fullName}.png" alt="placeholder">
+                </div>
+                <div class="nameSum">
+                    <div class="name text-left">
+                        ${selected.name}
+                    </div>
+                    <div class="fullName text-left">
+                        ${selected.fullName}
+                    </div>
+                    <div class="summary">
+                        ${selected.desc}
+                    </div>
+                </div>
+            </div> 
+            <div class="ingredients">
+                <h3 class="text-center">ingredients</h3>${selected.ingredients}
+            </div>
+        </div> `
+        back.style.display = 'none'
+        error.style.display = 'none'
+    } else {
+        debugger
+        skincareMatchArr = skincare.filter(function(ele) {
+            if (input.value === ele.name) {
+                return ele
+            }
+        
+        })//skincareMatchArr contains matching to input.val
+        if (skincareMatchArr.length > 0) {
+            error.style.display = 'none'
+            for (var i = 0; i < skincareMatchArr.length; i++) {
+                var selected = skincareMatchArr[i]
+                listStr += `
+                <p id='${i}'>
+                    ${selected.name} ${selected.fullName}
+                </p>`   
+                container.innerHTML = `
+                <div class="result">
+                    <h2 class="text-left">Results for ${input.value}</h2>
+                    <div class="list">
+                        ${listStr}
+                    </div>
+                </div>`
+            }
+            var list = document.querySelector('.list')
+            list.addEventListener('click', templateRender)
         } else {
             error.style.display = 'block'
             error.textContent = 'product not found!'
         }
     }
-    error.style.display = 'none'
-    container.innerHTML = `
-    <div class="result">
-        <h2 class="text-left">Results for ${input.value}</h2>
-        <div class="list">
-            ${listStr}
-        </div>
-    </div>`
-    var clickThing = document.querySelector('.list')
-    clickThing.addEventListener('click', templateRender)
+    
 }//renders the list of results
 
 
